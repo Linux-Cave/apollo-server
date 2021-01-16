@@ -1,0 +1,10 @@
+# git
+.git
+
+# Mac
+.DS_STORE
+
+# Node
+.npmrc
+node_modules/
+dist/

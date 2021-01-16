@@ -1,0 +1,45 @@
+{
+  "name": "@linuxcave/apollo-server",
+  "version": "0.0.1",
+  "description": "A Node.js boilerplate for Apollo Server.",
+  "engines": {
+    "node": "^14.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/LinuxCave/apollo-server"
+  },
+  "license": "MIT",
+  "author": "iandvt",
+  "scripts": {
+    "build": "rimraf dist/ && tsc",
+    "start": "node ./dist/server.js",
+    "test:code": "jest --config ./jest.config.json --coverage",
+    "test:security": "npm audit --package-lock-only",
+    "format:prettier": "prettier '**/*.ts' --write",
+    "format:pretty-quick": "pretty-quick --staged --verbose"
+  },
+  "dependencies": {
+    "@linuxcave/express": "^1.0.1",
+    "apollo-server-express": "^2.18.2",
+    "dd-trace": "^0.30.3",
+    "env-var": "^7.0.0",
+    "express-pino-logger": "^5.0.0",
+    "graphql": "^14.7.0",
+    "graphql-middleware": "^4.0.2",
+    "pino": "^6.7.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/express-pino-logger": "^4.0.2",
+    "@types/node": "^14.6.0",
+    "@types/pino": "^6.3.3",
+    "apollo-server-testing": "^2.18.2",
+    "husky": "^4.3.0",
+    "jest": "^26.5.2",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.2"
+  }
+}

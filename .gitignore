@@ -1,0 +1,7 @@
+# Mac
+.DS_STORE
+
+# Node
+.npmrc
+node_modules/
+dist/
