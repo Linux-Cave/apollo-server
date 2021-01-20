@@ -5,8 +5,6 @@ services:
       - '4000:4000'
     build:
       context: .
-      args:
-        - GPR_TOKEN
     environment:
       # ------------------------------
       # Required environment variables

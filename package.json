@@ -19,7 +19,7 @@
     "format:pretty-quick": "pretty-quick --staged --verbose"
   },
   "dependencies": {
-    "@linuxcave/express": "^1.0.1",
+    "@linuxcave/express": "^1.0.0",
     "apollo-server-express": "^2.18.2",
     "dd-trace": "^0.30.3",
     "env-var": "^7.0.0",
