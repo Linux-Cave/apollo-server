@@ -2,6 +2,8 @@
 
 A Node.js boilerplate for Apollo Server.
 
+https://apollo-server.linuxcave.io/graphql
+
 ### Dev
 
 ```
